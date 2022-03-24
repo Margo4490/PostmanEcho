@@ -24,7 +24,7 @@ public class EchoTest {
     public void ShouldPostSomeInteger() {
         given()
                 .baseUri("https://postman-echo.com")
-                .body("888dg")
+                .body("888")
                 .when()
                 .post("/post")
                 .then()
